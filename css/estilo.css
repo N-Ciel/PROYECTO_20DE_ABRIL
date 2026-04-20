@@ -1,0 +1,34 @@
+body{
+    background-color: aqua;
+}
+.padre{
+    background-color: red;
+    padding: 10px;
+}
+.titulo,.contenido,.pie{
+    background-color: rgb(117, 198, 192);
+    margin: 5px;
+    padding: 5px;
+}
+.foto{
+    background-color: rgb(100, 100, 164);
+    width: 50%;
+    height: 60%;
+    padding: 5px;
+}
+.imag{
+    width: 100%;
+    height: 100%;
+}
+.texto{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.contenido{
+    display: flex;
+}
+.titulo,.pie{
+    text-align: center;
+}
